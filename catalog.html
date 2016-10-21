@@ -46,18 +46,20 @@
 			</nav>
 		</section>
 		<aside class="body__sidebar">
-			<h2>Производители:</h2>
-			<label><input type="checkbox" name="maker[]" checked>Baxter of California</label>
-			<label><input type="checkbox" name="maker[]">Mr Natty</label>
-			<label><input type="checkbox" name="maker[]" checked>Suavecito</label>
-			<label><input type="checkbox" name="maker[]">Malin+Goetz</label>
-			<label><input type="checkbox" name="maker[]">Murray's</label>
-			<label><input type="checkbox" name="maker[]" checked>American crew</label>
-			<h2>Группы товаров:</h2>
-			<label><input type="radio" name="product-type">Бритвенные принадлежности</label>
-			<label><input type="radio" name="product-type">Средства для ухода</label>
-			<label><input type="radio" name="product-type">Аксессуары</label>
-			<a href="#" class="body__show-btn-show">Показать</a>
+			<form action="" method="post">
+				<h2>Производители:</h2>
+				<label><input type="checkbox" name="maker[]" checked>Baxter of California</label>
+				<label><input type="checkbox" name="maker[]">Mr Natty</label>
+				<label><input type="checkbox" name="maker[]" checked>Suavecito</label>
+				<label><input type="checkbox" name="maker[]">Malin+Goetz</label>
+				<label><input type="checkbox" name="maker[]">Murray's</label>
+				<label><input type="checkbox" name="maker[]" checked>American crew</label>
+				<h2>Группы товаров:</h2>
+				<label><input type="radio" name="product-type">Бритвенные принадлежности</label>
+				<label><input type="radio" name="product-type">Средства для ухода</label>
+				<label><input type="radio" name="product-type">Аксессуары</label>
+				<button type="submit" class="body__show-btn-show">Показать</button>
+			</form>
 		</aside>
 		<section class="body__content">
 			<section class="content__product">
@@ -144,7 +146,7 @@
 
 				<section class="content__pagination">
 					<a href="#" title="1">1</a>
-					<a href="#" title="2">2</a>
+					<a title="2">2</a>
 					<a href="#" title="3">3</a>
 					<a href="#" title="4">4</a>
 				</section>
