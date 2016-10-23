@@ -5,9 +5,9 @@
 	<title>Каталог</title>
 </head>
 <body>
-	<header class="main-header">
-		<div class="conteiner">
-			<nav class="main-header__menu">
+	<header class="header">
+		<div class="container">
+			<nav class="header-menu">
 				<ul>
 					<li>
 						<a href="index.html" title="Главная страница"><img src="http://placehold.it/150x100" alt="logo" width="150" height="100"></a>
@@ -29,23 +29,19 @@
 					</li>
 				</ul>
 			</nav>
-			<div class="main-header__login-wrapper">
-				<a href="#" title="Вход" class="main-header__login">Вход</a>
+			<div class="login-wrapper">
+				<a href="#" title="Вход" class="login">Вход</a>
 			</div>
 		</div>
 	</header>
 	<main class="body">
-		<section class="body__header">
-			<h1>Средства для ухода</h1>
-			<nav class="body__breadcrumbs">
-				<ul>
-					<li><a href="#" title="Главная">Главная</a></li>
-					<li><a href="#" title="Магазин">Магазин</a></li>
-					<li>Средства для ухода</li>
-				</ul>
-			</nav>
-		</section>
-		<aside class="body__sidebar">
+		<h1>Средства для ухода</h1>
+		<ul  class="breadcrumbs">
+			<li><a href="#" title="Главная">Главная</a></li>
+			<li><a href="#" title="Магазин">Магазин</a></li>
+			<li>Средства для ухода</li>
+		</ul>
+		<aside class="sidebar">
 			<form action="" method="post">
 				<h2>Производители:</h2>
 				<label><input type="checkbox" name="maker[]" checked>Baxter of California</label>
@@ -58,129 +54,126 @@
 				<label><input type="radio" name="product-type">Бритвенные принадлежности</label>
 				<label><input type="radio" name="product-type">Средства для ухода</label>
 				<label><input type="radio" name="product-type">Аксессуары</label>
-				<button type="submit" class="body__show-btn-show">Показать</button>
+				<button type="submit" class="sidebar-show-btn">Показать</button>
 			</form>
 		</aside>
-		<section class="body__content">
-			<section class="content__product">
-				<ul class="content__product-list">
-					<li class="content__product-item">
-						<article class="product">
-							<figure class="product__image">
-								<a href="catalog-item.html" title="Перейти на страницу товара"><img src="http://placehold.it/150x100" alt="Набор для путешествий Baxter of California" width="150" height="100"></a>
-							</figure>
-							<a href="catalog-item.html" title="Перейти на страницу товара" class="product__title">
-								<p>Набор для путешествий</p>
-								<p class="product__maker">&laquo;Baxter of California&raquo;</p>
-							</a>
-							<div class="product__price-wrapper">
-								<div class="product__price"></div>
-								<a href="" class="product__btn-buy"></a>
-							</div>
-						</article>
-					</li>
-					<li class="content__product-item">
-						<article class="product">
-							<figure class="product__image">
-								<a href="catalog-item.html" title="Перейти на страницу товара"><img src="http://placehold.it/150x100" alt="Набор для путешествий Baxter of California" width="150" height="100"></a>
-							</figure>
-							<a href="catalog-item.html" title="Перейти на страницу товара" class="product__title">
-								<p>Увлажняющий кондиционер</p>
-								<p class="product__maker">&laquo;Baxter of California&raquo;</p>
-							</a>
-							<div class="product__price-wrapper">
-								<div class="product__price"></div>
-								<a href="" class="product__btn-buy"></a>
-							</div>
-						</article>
-					</li>
-					<li class="content__product-item">
-						<article class="product">
-							<figure class="product__image">
-								<a href="catalog-item.html" title="Перейти на страницу товара"><img src="http://placehold.it/150x100" alt="Набор для путешествий Baxter of California" width="150" height="100"></a>
-							</figure>
-							<a href="catalog-item.html" title="Перейти на страницу товара" class="product__title">
-								<p>Гель для волос</p>
-								<p class="product__maker">&laquo;Suavecito&raquo;</p>
-							</a>
-							<div class="product__price-wrapper">
-								<div class="product__price"></div>
-								<a href="" class="product__btn-buy"></a>
-							</div>
-						</article>
-					</li>
-					<li class="content__product-item">
-						<article class="product">
-							<figure class="product__image">
-								<a href="catalog-item.html" title="Перейти на страницу товара"><img src="http://placehold.it/150x100" alt="Набор для путешествий Baxter of California" width="150" height="100"></a>
-							</figure>
-							<a href="catalog-item.html" title="Перейти на страницу товара" class="product__title">
-								<p>Глина для укладки волос</p>
-								<p class="product__maker">&laquo;American crew&raquo;</p>
-							</a>
-							<div class="product__price-wrapper">
-								<div class="product__price"></div>
-								<a href="" class="product__btn-buy"></a>
-							</div>
-						</article>
-					</li>
-					<li class="content__product-item">
-						<article class="product">
-							<figure class="product__image">
-								<a href="catalog-item.html" title="Перейти на страницу товара"><img src="http://placehold.it/150x100" alt="Набор для путешествий Baxter of California" width="150" height="100"></a>
-							</figure>
-							<a href="catalog-item.html" title="Перейти на страницу товара" class="product__title">
-								<p>Гель для волос</p>
-								<p class="product__maker">&laquo;American crew&raquo;</p>
-							</a>
-							<div class="product__price-wrapper">
-								<div class="product__price"></div>
-								<a href="" class="product__btn-buy"></a>
-							</div>
-						</article>
-					</li>
-					<li class="content__product-item">
-						<article class="product">
-							<figure class="product__image">
-								<a href="catalog-item.html" title="Перейти на страницу товара"><img src="http://placehold.it/150x100" alt="Набор для путешествий Baxter of California" width="150" height="100"></a>
-							</figure>
-							<a href="catalog-item.html" title="Перейти на страницу товара" class="product__title">
-								<p>Набор для бритья</p>
-								<p class="product__maker">&laquo;Baxter of California&raquo;</p>
-							</a>
-							<div class="product__price-wrapper">
-								<div class="product__price"></div>
-								<a href="" class="product__btn-buy"></a>
-							</div>
-						</article>
-					</li>
-				</ul>
-
-				<section class="content__pagination">
-					<a href="#" title="1">1</a>
-					<a title="2">2</a>
-					<a href="#" title="3">3</a>
-					<a href="#" title="4">4</a>
-				</section>
+		<section class="content">
+			<ul class="product-list">
+				<li class="product-item">
+					<article class="product">
+						<figure class="product-image">
+							<a href="catalog-item.html" title="Перейти на страницу товара"><img src="http://placehold.it/150x100" alt="Набор для путешествий Baxter of California" width="150" height="100"></a>
+						</figure>
+						<a href="catalog-item.html" title="Перейти на страницу товара" class="product-title">
+							<p>Набор для путешествий</p>
+							<p class="product-maker">&laquo;Baxter of California&raquo;</p>
+						</a>
+						<div class="price-wrapper">
+							<div class="product-price"></div>
+							<a href="#" class="product-buy-btn"></a>
+						</div>
+					</article>
+				</li>
+				<li class="product-item">
+					<article class="product">
+						<figure class="product-image">
+							<a href="catalog-item.html" title="Перейти на страницу товара"><img src="http://placehold.it/150x100" alt="Набор для путешествий Baxter of California" width="150" height="100"></a>
+						</figure>
+						<a href="catalog-item.html" title="Перейти на страницу товара" class="product-title">
+							<p>Увлажняющий кондиционер</p>
+							<p class="product-maker">&laquo;Baxter of California&raquo;</p>
+						</a>
+						<div class="price-wrapper">
+							<div class="product-price"></div>
+							<a href="#" class="product-buy-btn"></a>
+						</div>
+					</article>
+				</li>
+				<li class="product-item">
+					<article class="product">
+						<figure class="product=image">
+							<a href="catalog-item.html" title="Перейти на страницу товара"><img src="http://placehold.it/150x100" alt="Набор для путешествий Baxter of California" width="150" height="100"></a>
+						</figure>
+						<a href="catalog-item.html" title="Перейти на страницу товара" class="product-title">
+							<p>Гель для волос</p>
+							<p class="product-maker">&laquo;Suavecito&raquo;</p>
+						</a>
+						<div class="price-wrapper">
+							<div class="product-price"></div>
+							<a href="#" class="product-buy-btn"></a>
+						</div>
+					</article>
+				</li>
+				<li class="product-item">
+					<article class="product">
+						<figure class="product-image">
+							<a href="catalog-item.html" title="Перейти на страницу товара"><img src="http://placehold.it/150x100" alt="Набор для путешествий Baxter of California" width="150" height="100"></a>
+						</figure>
+						<a href="catalog-item.html" title="Перейти на страницу товара" class="product-title">
+							<p>Глина для укладки волос</p>
+							<p class="product-maker">&laquo;American crew&raquo;</p>
+						</a>
+						<div class="price-wrapper">
+							<div class="product-price"></div>
+							<a href="#" class="product-buy-btn"></a>
+						</div>
+					</article>
+				</li>
+				<li class="product-item">
+					<article class="product">
+						<figure class="product-image">
+							<a href="catalog-item.html" title="Перейти на страницу товара"><img src="http://placehold.it/150x100" alt="Набор для путешествий Baxter of California" width="150" height="100"></a>
+						</figure>
+						<a href="catalog-item.html" title="Перейти на страницу товара" class="product-title">
+							<p>Гель для волос</p>
+							<p class="product-maker">&laquo;American crew&raquo;</p>
+						</a>
+						<div class="price-wrapper">
+							<div class="product-price"></div>
+							<a href="#" class="product-buy-btn"></a>
+						</div>
+					</article>
+				</li>
+				<li class="product-item">
+					<article class="product">
+						<figure class="product-image">
+							<a href="catalog-item.html" title="Перейти на страницу товара"><img src="http://placehold.it/150x100" alt="Набор для путешествий Baxter of California" width="150" height="100"></a>
+						</figure>
+						<a href="catalog-item.html" title="Перейти на страницу товара" class="product-title">
+							<p>Набор для бритья</p>
+							<p class="product-maker">&laquo;Baxter of California&raquo;</p>
+						</a>
+						<div class="price-wrapper">
+							<div class="product-price"></div>
+							<a href="#" class="product-buy-btn"></a>
+						</div>
+					</article>
+				</li>
+			</ul>
+			<section class="pagination">
+				<a href="#" title="Перейти на страницу">1</a>
+				<a title="Перейти на страницу">2</a>
+				<a href="#" title="Перейти на страницу">3</a>
+				<a href="#" title="Перейти на страницу">4</a>
 			</section>
 		</section>
-		<footer class="main-footer">
-			<div class="conteiner">
-				<section class="footer__contacts">
+		<footer class="footer">
+			<div class="container">
+				<section class="footer-contacts">
 					Барбершоп &laquo;Бородинский&raquo;<br>
 					Адрес: г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
 					<a href="#" title="Как нас найти">Как нас найти?</a><br>
 					Телефон: <a href="tel:+7(906)666-66-66" title="Как нас найти">+7 (906) 666-66-66</a><br>
 				</section>
-				<section class="footer__soccial">
+				<section class="footer-soccial">
 					<p>Давайте дружить!</p>
-					<a href="#" class="footer__soccial-btn social-btn-vk">Вконтакте</a>
-		          	<a href="#" class="footer__soccial-btn social-btn-fb">Фейсбук</a>
-		          	<a href="#" class="footer__soccial-btn social-btn-inst">Инстаграм</a>
+					<a href="#" class="soccial-btn social-btn-vk">Вконтакте</a>
+		          	<a href="#" class="soccial-btn social-btn-fb">Фейсбук</a>
+		          	<a href="#" class="soccial-btn social-btn-inst">Инстаграм</a>
 				</section>
-				<section class="footer__copyright">
+				<section class="footer-copyright">
 					<p>Разработано:</p>
-         			<a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+         			<a href="https://htmlacademy.ru" title="Перейти на сайт HTML Academy" class="copyright-link">HTML Academy</a>
 				</section>
 			</div>
 		</footer>

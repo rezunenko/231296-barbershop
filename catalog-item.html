@@ -5,9 +5,9 @@
 	<title>Страница товара</title>
 </head>
 <body>
-	<header class="main-header">
-		<div class="conteiner">
-			<nav class="main-header__menu">
+	<header class="header">
+		<div class="container">
+			<nav class="header-menu">
 				<ul>
 					<li>
 						<a href="index.html" title="Главная страница"><img src="http://placehold.it/150x100" alt="logo" width="150" height="100"></a>
@@ -29,79 +29,72 @@
 					</li>
 				</ul>
 			</nav>
-			<div class="main-header__login-wrapper">
-				<a href="#" title="Вход" class="main-header__login">Вход</a>
+			<div class="login-wrapper">
+				<a href="#" title="Вход" class="login">Вход</a>
 			</div>
 		</div>
 	</header>
 	<main class="body">
-		<section class="body__header">
-			<h1>Средства для ухода</h1>
-			<nav class="body__breadcrumbs">
-				<ul>
-					<li><a href="#" title="Главная">Главная</a></li>
-					<li><a href="#" title="Магазин">Магазин</a></li>
-					<li><a href="#" title="Средства для ухода">Средства для ухода</a></li>
-					<li>Набор для путешествий &laquo;Baxter of California&raquo;</li>
-				</ul>
-			</nav>
-		</section>
-		<section class="body__content">
-			<div class="content__col-left">
-				<figure class="content__main-picture">
+		<h1>Средства для ухода</h1>
+		<ul class="breadcrumbs">
+			<li><a href="#" title="Главная">Главная</a></li>
+			<li><a href="#" title="Магазин">Магазин</a></li>
+			<li><a href="#" title="Средства для ухода">Средства для ухода</a></li>
+			<li>Набор для путешествий &laquo;Baxter of California&raquo;</li>
+		</ul>
+		<section class="product">
+			<div class="product-picture-list">
+				<figure class="pruduct-picture">
 					<img src="http://placehold.it/300x400" alt="" width="300" height="400">
 				</figure>
-				<section class="content__gallery">
-					<ul class="content__gallery-list">
-						<li class="content__gallery-item"><img src="http://placehold.it/150x100" alt="" width="150" height="100"></li>
-						<li class="content__gallery-item"><img src="http://placehold.it/150x100" alt="" width="150" height="100"></li>
-						<li class="content__gallery-item"><img src="http://placehold.it/150x100" alt="" width="150" height="100"></li>
+				<section class="pruduct-gallery">
+					<ul class="pruduct-gallery-list">
+						<li class="pruduct-gallery-item"><img src="http://placehold.it/150x100" alt="" width="150" height="100"></li>
+						<li class="pruduct-gallery-item"><img src="http://placehold.it/150x100" alt="" width="150" height="100"></li>
+						<li class="pruduct-gallery-item"><img src="http://placehold.it/150x100" alt="" width="150" height="100"></li>
 					</ul>
 				</section>	
 			</div>
-			<div class="content__col-right">
-				<section class="content__product">
-					<div class="product__availability">
-						Есть в наличии
-						<div class="product__identity">
-							Артикул: DEXTER-AE
-						</div>
+			<section class="product">
+				<div class="product-availability">
+					Есть в наличии
+					<div class="product-identity">
+						Артикул: DEXTER-AE
 					</div>
-					<p class="product__">Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
-					<div class="product__price-wrapper">
-						<div class="product__price"></div>
-						<a href="" class="product__btn-buy"></a>
-					</div>
-					<section class="product__content">
-						<ul>
-							<li>Средство для умывания (50 мл)</li>
-							<li>Увлажняющий крем (50мл)</li>
-							<li>Крем для бритья (50 мл)</li>
-							<li>Крем после бритья, шампунь (50мл)</li>
-							<li>Удобная кожаная косметичка</li>
-						</ul>
-					</section>
+				</div>
+				<p class="product-title">Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
+				<div class="price-wrapper">
+					<div class="product-price"></div>
+					<a href="" class="product-buy-btn"></a>
+				</div>
+				<section class="product-content">
+					<ul>
+						<li>Средство для умывания (50 мл)</li>
+						<li>Увлажняющий крем (50мл)</li>
+						<li>Крем для бритья (50 мл)</li>
+						<li>Крем после бритья, шампунь (50мл)</li>
+						<li>Удобная кожаная косметичка</li>
+					</ul>
 				</section>
-
-			</div>
+			</section>
 		</section>
-		<footer class="main-footer">
+		<footer class="footer">
 			<div class="conteiner">
-				<section class="footer__contacts">
+				<section class="footer-contacts">
 					Барбершоп &laquo;Бородинский&raquo;<br>
 					Адрес: г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
 					<a href="#" title="Как нас найти">Как нас найти?</a><br>
 					Телефон: <a href="tel:+7(906)666-66-66" title="Как нас найти">+7 (906) 666-66-66</a><br>
 				</section>
-				<section class="footer__soccial">
+				<section class="footer-soccial">
 					<p>Давайте дружить!</p>
-					<a href="#" class="footer__soccial-btn social-btn-vk">Вконтакте</a>
-		          	<a href="#" class="footer__soccial-btn social-btn-fb">Фейсбук</a>
-		          	<a href="#" class="footer__soccial-btn social-btn-inst">Инстаграм</a>
+					<a href="#" class="soccial-btn social-btn-vk">Вконтакте</a>
+		          	<a href="#" class="soccial-btn social-btn-fb">Фейсбук</a>
+		          	<a href="#" class="soccial-btn social-btn-inst">Инстаграм</a>
 				</section>
-				<section class="footer__copyright">
+				<section class="footer-copyright">
 					<p>Разработано:</p>
-         			<a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+         			<a href="https://htmlacademy.ru" title="Перейти на сайт HTML Academy" class="copyright-link">HTML Academy</a>
 				</section>
 			</div>
 		</footer>
