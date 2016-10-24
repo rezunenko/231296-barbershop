@@ -1,0 +1,34 @@
+@font-face {
+    font-family: PTSans; 
+    src: url(../fonts/PTN77F.ttf); 
+    font-weight: normal;
+  	font-style: normal;
+}
+
+body{
+	font: 14px/24px PTSans, Arial, Tahoma, sans-serif;
+}
+
+h1{
+	font-size: 30px;
+	line-height: 42px;
+	color:#000;
+}
+
+.header{
+	background: #000;
+}
+
+.header a,
+.features{
+	color: #fff;
+}
+
+main.container{
+	background: url(../img/background.jpg) no-repeat;
+}
+
+.breadcrumbs a{
+	text-decoration: none;
+	color: #000;
+}
