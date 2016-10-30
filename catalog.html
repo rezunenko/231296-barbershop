@@ -44,7 +44,7 @@
 			<li>Средства для ухода</li>
 		</ul>
 		<aside class="sidebar">
-			<form action="" method="post">
+			<form action="#" method="get">
 				<h2>Производители:</h2>
 				<label><input type="checkbox" name="maker[]" checked>Baxter of California</label>
 				<label><input type="checkbox" name="maker[]">Mr Natty</label>
@@ -53,9 +53,9 @@
 				<label><input type="checkbox" name="maker[]">Murray's</label>
 				<label><input type="checkbox" name="maker[]" checked>American crew</label>
 				<h2>Группы товаров:</h2>
-				<label><input type="radio" name="product-type">Бритвенные принадлежности</label>
-				<label><input type="radio" name="product-type">Средства для ухода</label>
-				<label><input type="radio" name="product-type">Аксессуары</label>
+				<label><input type="radio" name="product-type" value="0">Бритвенные принадлежности</label>
+				<label><input type="radio" name="product-type" value="1">Средства для ухода</label>
+				<label><input type="radio" name="product-type" value="2">Аксессуары</label>
 				<button type="submit" class="sidebar-show-btn">Показать</button>
 			</form>
 		</aside>
@@ -67,11 +67,13 @@
 							<a href="catalog-item.html" title="Перейти на страницу товара"><img src="img/catalog_1.png" alt="Набор для путешествий Baxter of California" width="220" height="165"></a>
 						</figure>
 						<a href="catalog-item.html" title="Перейти на страницу товара" class="product-title">
-							<p>Набор для путешествий</p>
-							<p class="product-maker">&laquo;Baxter of California&raquo;</p>
+							<h2>
+								<span class="product-title">Набор для путешествий</span>
+								<span class="product-maker">&laquo;Baxter of California&raquo;</span>
+							</h2>
 						</a>
 						<div class="price-wrapper">
-							<div class="product-price"></div>
+							<span class="product-price"></span>
 							<a href="#" class="product-buy-btn"></a>
 						</div>
 					</article>
@@ -82,11 +84,13 @@
 							<a href="catalog-item.html" title="Перейти на страницу товара"><img src="img/catalog_2.png" alt="Набор для путешествий Baxter of California" width="220" height="165"></a>
 						</figure>
 						<a href="catalog-item.html" title="Перейти на страницу товара" class="product-title">
-							<p>Увлажняющий кондиционер</p>
-							<p class="product-maker">&laquo;Baxter of California&raquo;</p>
+							<h2>
+								<span class="product-title">Увлажняющий кондиционер</span>
+								<span class="product-maker">&laquo;Baxter of California&raquo;</span>
+							</h2>
 						</a>
 						<div class="price-wrapper">
-							<div class="product-price"></div>
+							<span class="product-price"></span>
 							<a href="#" class="product-buy-btn"></a>
 						</div>
 					</article>
@@ -97,11 +101,13 @@
 							<a href="catalog-item.html" title="Перейти на страницу товара"><img src="img/catalog_3.png" alt="Набор для путешествий Baxter of California" width="220" height="165"></a>
 						</figure>
 						<a href="catalog-item.html" title="Перейти на страницу товара" class="product-title">
-							<p>Гель для волос</p>
-							<p class="product-maker">&laquo;Suavecito&raquo;</p>
+							<h2>
+								<span class="product-title">Гель для волос</span>
+								<span class="product-maker">&laquo;Suavecito&raquo;</span>
+							</h2>
 						</a>
 						<div class="price-wrapper">
-							<div class="product-price"></div>
+							<span class="product-price"></span>
 							<a href="#" class="product-buy-btn"></a>
 						</div>
 					</article>
@@ -112,11 +118,13 @@
 							<a href="catalog-item.html" title="Перейти на страницу товара"><img src="img/catalog_4.png" alt="Набор для путешествий Baxter of California" width="220" height="165"></a>
 						</figure>
 						<a href="catalog-item.html" title="Перейти на страницу товара" class="product-title">
-							<p>Глина для укладки волос</p>
-							<p class="product-maker">&laquo;American crew&raquo;</p>
+							<h2>
+								<span class="product-title">Глина для укладки волос</span>
+								<span class="product-maker">&laquo;American crew&raquo;</span>
+							</h2>
 						</a>
 						<div class="price-wrapper">
-							<div class="product-price"></div>
+							<span class="product-price"></span>
 							<a href="#" class="product-buy-btn"></a>
 						</div>
 					</article>
@@ -127,11 +135,13 @@
 							<a href="catalog-item.html" title="Перейти на страницу товара"><img src="img/catalog_5.png" alt="Набор для путешествий Baxter of California" width="220" height="165"></a>
 						</figure>
 						<a href="catalog-item.html" title="Перейти на страницу товара" class="product-title">
-							<p>Гель для волос</p>
-							<p class="product-maker">&laquo;American crew&raquo;</p>
+							<h2>
+								<span class="product-title">Гель для волос</span>
+								<span class="product-maker">&laquo;American crew&raquo;</span>
+							</h2>
 						</a>
 						<div class="price-wrapper">
-							<div class="product-price"></div>
+							<span class="product-price"></span>
 							<a href="#" class="product-buy-btn"></a>
 						</div>
 					</article>
@@ -142,11 +152,13 @@
 							<a href="catalog-item.html" title="Перейти на страницу товара"><img src="img/catalog_6.png" alt="Набор для путешествий Baxter of California" width="220" height="165"></a>
 						</figure>
 						<a href="catalog-item.html" title="Перейти на страницу товара" class="product-title">
-							<p>Набор для бритья</p>
-							<p class="product-maker">&laquo;Baxter of California&raquo;</p>
+							<h2>
+								<span class="product-title">Набор для бритья</span>
+								<span class="product-maker">&laquo;Baxter of California&raquo;</span>
+							</h2>
 						</a>
 						<div class="price-wrapper">
-							<div class="product-price"></div>
+							<span class="product-price"></span>
 							<a href="#" class="product-buy-btn"></a>
 						</div>
 					</article>
